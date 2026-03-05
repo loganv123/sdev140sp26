@@ -1,8 +1,11 @@
 '''
-This is my final project, a basic inventory managment system.
-It will show what items are "In stock" using a Treeview.
-I will use JSON to store and hold data.
+File: M08_FinalProject_LV.py
+Author: Logan Vanhuffel
+Date: 3/5/2026
 
+This is a simple inventory management system built with Python's Tkinter library.
+It allows users to add, edit, and delete inventory items, which are stored in a local
+JSON file for persistence. The app features a clean UI with a table view of items and input validation.
 '''
 import tkinter as tk
 from tkinter import ttk, messagebox
@@ -320,3 +323,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = InventoryApp(root)
     root.mainloop()
+
