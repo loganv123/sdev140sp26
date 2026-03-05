@@ -21,7 +21,7 @@ class InventoryManager:
     """
     def __init__(self, filename="inventory.json"):
         """
-        Initializa the manager.
+        Initialize the manager.
         filename: path to JSON file for storage.
         Loads any existing data on app launch.
         """
@@ -323,4 +323,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = InventoryApp(root)
     root.mainloop()
+
 
